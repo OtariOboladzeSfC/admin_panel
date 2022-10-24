@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Cards</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <!-- <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div> -->
+                <div class="sidebar-brand-text mx-3">NEOTEC</div>
+            </a>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item active">
+                <a class="nav-link" href="charts.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Maps and charts</span></a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Cases</span></a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item active">
+                <a class="nav-link" href="cards.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Odour case options</span></a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item active">
+                <a class="nav-link" href="api_keys.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>API keys</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">neotec_admin_1</span>
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Cards</h1>
+                    </div> -->
+
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+
+
+                            <!-- Basic Card Example -->
+                            <!-- <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Basic Card Example</h6>
+                                </div>
+                                <div class="card-body">
+                                    The styling for this basic card example is created by using default Bootstrap
+                                    utility classes. By using utility classes, the style of the card component can be
+                                    easily modified with no need for any custom CSS!
+                                </div>
+                            </div> -->
+
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary mb-4">Odour main type</h6>
+
+                                    <button type="button" class="btn btn-outline-primary">Add new</button>
+                                    <button type="button" class="btn btn-outline-info">Edit</button>
+                                    <button type="button" class="btn btn-outline-danger">Remove</button>
+
+                                </div>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <!-- <th scope="col"></th> -->
+                                                <th scope="col">Main type</th>
+                                                <!-- <th scope="col">Type description</th> -->
+                                                <!-- <th scope="col">Type slug</th> -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>No Odour</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Other</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nice odours</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Urban</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Food industries</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Agriculture / livestock</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Waste water</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Waste</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary mb-4">Odour subtype</h6>
+
+
+                                    <button type="button" class="btn btn-outline-primary">Add new</button>
+                                    <button type="button" class="btn btn-outline-info">Edit</button>
+                                    <button type="button" class="btn btn-outline-danger">Remove</button>
+
+                                </div>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <!-- <th scope="col">#</th> -->
+                                                <th scope="col">Subtype</th>
+                                                <th scope="col">Main type</th>
+                                                <!-- <th scope="col">Handle</th> -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td> Cabbage soup</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Oil / petrochemical</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Gas</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Asphalt / rubber</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Chemical</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Ammonia</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Leather</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Metal</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Plastic</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Sulphur</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Alcohol</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Ketone / ester / acetate / ether</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Amines</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Glue / adhesive</td>
+                                                <td>Industrial</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Fresh waste</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Decomposed waste</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Leachate</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Biogas</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Biofilter</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Ammonia</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Amines</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Other</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                            <tr>
+                                                <td> I don't know</td>
+                                                <td>Waste</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+
+
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary mb-4">Odour intensity</h6>
+
+                                    <button type="button" class="btn btn-outline-primary">Add new</button>
+                                    <button type="button" class="btn btn-outline-info">Edit</button>
+                                    <button type="button" class="btn btn-outline-danger">Remove</button>
+
+                                </div>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <!-- <th scope="col">#</th> -->
+                                                <th scope="col">Number</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <!-- <th scope="row">1</th> -->
+                                                <td>1</td>
+                                                <td>Very weak</td>
+                                                <td>It is difficult to perceive it</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">2</th> -->
+                                                <td>2</td>
+                                                <td>Weak</td>
+                                                <td>Almost everybody can notice an odour in the ambient air</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">3</th> -->
+                                                <td>3</td>
+                                                <td>Distinct</td>
+                                                <td>An odour is clearly present in the air, perceivable by everybody</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">1</th> -->
+                                                <td>4</td>
+                                                <td>Strong</td>
+                                                <td>The odour starts to annoy</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">2</th> -->
+                                                <td>5</td>
+                                                <td>Very strong</td>
+                                                <td>The odour is clearly annoying</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">3</th> -->
+                                                <td>6</td>
+                                                <td>Extremely strong</td>
+                                                <td>The odour is almost unbearable</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary mb-4">Odour niceness</h6>
+
+                                    <button type="button" class="btn btn-outline-primary">Add new</button>
+                                    <button type="button" class="btn btn-outline-info">Edit</button>
+                                    <button type="button" class="btn btn-outline-danger">Remove</button>
+
+                                </div>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <!-- <th scope="col">#</th> -->
+                                                <th scope="col">Number</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <!-- <th scope="row">1</th> -->
+                                                <td>-4</td>
+                                                <td>Extremely unpleasant</td>
+                                                <td>The odour is extremely unpleasant</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">2</th> -->
+                                                <td>-3</td>
+                                                <td>Very unpleasant</td>
+                                                <td>The odour is very unpleasant</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">3</th> -->
+                                                <td>-2</td>
+                                                <td>Unpleasant</td>
+                                                <td>The odour is unpleasant</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">1</th> -->
+                                                <td>-1</td>
+                                                <td>Slightly unpleasant</td>
+                                                <td>The odour is slightly unpleasant</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">2</th> -->
+                                                <td>0</td>
+                                                <td>Neutral</td>
+                                                <td>The odour is neutral</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">1</th> -->
+                                                <td>1</td>
+                                                <td>Slightly pleasant</td>
+                                                <td>The odour is slightly pleasant</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">2</th> -->
+                                                <td>2</td>
+                                                <td>Pleasant</td>
+                                                <td>The odour is pleasant</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">3</th> -->
+                                                <td>3</td>
+                                                <td>Very pleasant</td>
+                                                <td>The odour is very pleasant</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">1</th> -->
+                                                <td>4</td>
+                                                <td>Extremely pleasant</td>
+                                                <td>The odour is extremely pleasant</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary mb-4">Odour timing</h6>
+
+                                    <button type="button" class="btn btn-outline-primary">Add new</button>
+                                    <button type="button" class="btn btn-outline-info">Edit</button>
+                                    <button type="button" class="btn btn-outline-danger">Remove</button>
+
+                                </div>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <!-- <th scope="col">#</th> -->
+                                                <!-- <th scope="col">First</th> -->
+                                                <!-- <th scope="col">Last</th> -->
+                                                <th scope="col">How long did it last?</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <!-- <th scope="row">1</th> -->
+                                                <!-- <td>Mark</td> -->
+                                                <!-- <td>Otto</td> -->
+                                                <td>Puntual</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">2</th> -->
+                                                <!-- <td>Jacob</td> -->
+                                                <!-- <td>Thornton</td> -->
+                                                <td>Last hour</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <th scope="row">3</th> -->
+                                                <!-- <td>Larry</td> -->
+                                                <!-- <td>the Bird</td> -->
+                                                <td>A day long</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+   
+            
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>
